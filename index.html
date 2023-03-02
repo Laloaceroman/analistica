@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=72864" rel="stylesheet" type="text/css">
+    <link href="css/main.css?v=88622" rel="stylesheet" type="text/css">
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css" rel="stylesheet">
-    <script src="js/main.js?v=72864" type="text/javascript"></script>
+    <script src="js/main.js?v=88622" type="text/javascript"></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
@@ -21,19 +21,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;0,700;1,300&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;0,700;1,300&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <div class="header__primary">
         <div class="header__wrap">
           <div class="header__inner">
-            <div class="header__logo"><a href="index.html">Analistica
-                <!--img(src="img/icons/logo-analistica.svg")--></a></div>
+            <div class="header__logo"><a href="index.html"><img src="img/icons/logotipo-analistica.png"></a></div>
             <div class="header__nav">
               <div class="header__nav__bg"></div>
               <div class="header__nav__nav">
                 <div class="header__nav__bar">
-                  <div class="header__logo"><a href="index.html"><img src="img/icons/logo-analistica.svg"></a></div>
                   <div class="header__nav__close">
                     <div></div>
                     <div></div>
@@ -49,8 +48,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="base-standar.html">Bases estándar</a></li>
                     <li><a href="bases-personalizadas.html">Bases personalizadas</a></li>
-                    <li><a href="investigacion-proyectos.html">Investigación y proyectos</a></li>
-                    <li class="li-max"><a href="datos-marketing.html">Servicios de datos y marketing</a></li>
+                    <li><a href="investigacion-proyectos.html">Proyectos de data</a></li>
                     <li><a href="contact.html">Contacto</a></li>
                   </ul>
                 </nav>
@@ -66,146 +64,246 @@
       </div>
     </header>
     <div id="sections">
-      <section class="section--main"> 
-        <div class="section__bg"> 
-          <div class="bg"><img src="img/uploads/1.jpeg"></div>
+      <section class="section--newmain">
+        <div class="section__video">
+          <video id="myvideo" playsinline autoplay muted loop>
+            <source src="videos/video_01.mp4" type="video/mp4" autoplay>
+          </video>
         </div>
         <div class="section__wrap section__wrap--main">
-          <div class="section__body dscroll"> <span class="section__subtitle">Bases estándar</span>
-            <h1 class="section__title">La base para tus metas</h1>
-            <p class="section__description">Bases de alto rendimiento </p><a href="#" class="btn">Haga click aqui <span class="fa fa-long-arrow-right"></span></a>
+          <div class="section__body"> 
+            <div class="section__content"> 
+              <h1 class="section__title">Descubre el potencial de los datos</h1>
+            </div>
           </div>
         </div>
       </section>
-      <section class="section--main"> 
-        <div class="section__bg"> 
-          <div class="bg"><img src="img/uploads/2.jpeg"></div>
-        </div>
-        <div class="section__wrap section__wrap--main">
-          <div class="section__body dscroll"> <span class="section__subtitle">Bases Personalizadas</span>
-            <h2 class="h1 section__title">Replica a tus clientes de éxito</h2>
-            <p class="section__description">Detectamos las variables de éxito y replicamos nuevos cliente</p><a href="#" class="btn">Haga click aqui <span class="fa fa-long-arrow-right"> </span></a>
-          </div>
-        </div>
-      </section>
-      <section class="section--main"> 
-        <div class="section__bg"> 
-          <div class="bg"><img src="img/uploads/3.jpeg"></div>
-        </div>
-        <div class="section__wrap section__wrap--main">
-          <div class="section__body dscroll"> <span class="section__subtitle">Investigación y análisis</span>
-            <h2 class="h1 section__title">Investigación por datos</h2>
-            <p class="section__description">La información vinculada</p><a href="#" class="btn">Haga click aqui <span class="fa fa-long-arrow-right"> </span></a>
+      <section class="section--cycle">
+        <div class="section__wrap">
+          <div class="section__box">
+            <div class="section__body"> 
+              <div class="cols">
+                <div class="section__flex"> 
+                  <div class="col-md-5">
+                    <div class="section__content">
+                      <h3 class="section__title">Inicio del ciclo de datos</h3>
+                      <p class="section__description">El ciclo de datos es un proceso que implica la recopilación de datos de diversas fuentes, su almacenamiento y posterior análisis. Los datos se examinan con software de análisis para obtener información valiosa como patrones y tendencias. Este ciclo se repite constantemente para mantener la información actual y relevante.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="section__image"> <img src="img/uploads/cycle.png"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <section class="section--features">
-        <div class="section__body"> 
-          <div class="section__wrapper">
-            <div class="swiper-container swiper-home">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide dscroll">
-                  <article class="article--feature">
-                    <div class="article__body">
-                      <h3 class="article__title">Equipo con más de </h3><span class="article__number">30</span>
-                      <p class="article__description">Años de experiencia y logros</p>
+        <div class="section__wrap">
+          <div class="section__box">
+            <div class="section__header"> 
+              <h2 class="h1 section__title">Niveles de interpretación</h2>
+              <p class="section__description">Los 4 niveles de conocimiento, desde un "porqué" hasta un "qué hacer"</p>
+            </div>
+            <div class="section__body"> 
+              <div class="cols cols-gutter-2">
+                <div class="col-md-6 col-lg-3">
+                  <article class="article--feature"> 
+                    <div class="article__header"> 
+                      <h4 class="article__title">Descriptivo</h4>
+                    </div>
+                    <div class="article__body"> 
+                      <p>La capacidad de analizar, interpretar y describir información de manera efectiva, es un componente importante del pensamiento crítico y la solución de problemas.</p>
                     </div>
                   </article>
                 </div>
-                <div class="swiper-slide dscroll">
-                  <article class="article--feature">
-                    <div class="article__body">
-                      <h3 class="article__title">Creación y análisis con mas de</h3><span class="article__number">50</span>
-                      <p class="article__description">Variables de estudio</p>
+                <div class="col-md-6 col-lg-3">
+                  <article class="article--feature"> 
+                    <div class="article__header"> 
+                      <h4 class="article__title">Diagnóstico</h4>
+                    </div>
+                    <div class="article__body"> 
+                      <p>El análisis predictivo es una herramienta valiosa que permite predecir el resultado futuro de un evento o situación, basado en la información disponible y en los patrones identificados en el pasado</p>
                     </div>
                   </article>
                 </div>
-                <div class="swiper-slide dscroll">
-                  <article class="article--feature">
-                    <div class="article__body">
-                      <h3 class="article__title">Bases desarrolladas</h3><span class="article__number">100%</span>
-                      <p class="article__description">Por analistica</p>
+                <div class="col-md-6 col-lg-3">
+                  <article class="article--feature"> 
+                    <div class="article__header"> 
+                      <h4 class="article__title">Predictivo</h4>
+                    </div>
+                    <div class="article__body"> 
+                      <p>El análisis predictivo es una herramienta valiosa que permite predecir el resultado futuro de un evento o situación, basado en la información disponible y en los patrones identificados en el pasado</p>
                     </div>
                   </article>
                 </div>
-                <div class="swiper-slide dscroll">
-                  <article class="article--feature">
-                    <div class="article__body">
-                      <h3 class="article__title">Contamos con más de</h3><span class="article__number">500.000</span>
-                      <p class="article__description">Empresas, pymes e industrias</p>
+                <div class="col-md-6 col-lg-3">
+                  <article class="article--feature"> 
+                    <div class="article__header"> 
+                      <h4 class="article__title">Prescriptivo</h4>
                     </div>
-                  </article>
-                </div>
-                <div class="swiper-slide dscroll">
-                  <article class="article--feature">
-                    <div class="article__body">
-                      <h3 class="article__title">Precios desde</h3><span class="article__number">39 UF</span>
-                      <p class="article__description">Bases estándar</p>
+                    <div class="article__body"> 
+                      <p>El análisis prescriptivo es un enfoque que combina elementos del análisis predictivo y del diagnóstico para proporcionar soluciones y recomendaciones para lograr un resultado específico, mediante el uso de elementos determinados.</p>
                     </div>
                   </article>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="section__footer dscroll">
-          <h3 class="h1 section__title">De datos a números </h3>
-          <p class="section__description">Algunos datos que te pueden interesar. Te invitamos a conocer los números que dan confianza a nuestros clientes que confian en analistica</p>
         </div>
       </section>
-      <section class="section--clients section--light"> 
+      <section class="section--carousel"> 
         <div class="section__wrap"> 
-          <div class="section__body dscroll"> 
-            <div class="cols"> 
-              <div class="col-xs-6 col-md-3">
-                <article class="article--client">
-                  <div class="article__img"> <img src="img/clients/1.png"></div>
-                </article>
+          <div class="section__body"> 
+            <div class="section__swiper">
+              <div class="swiper-container swiper-right">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide dscroll">
+                    <div class="section__date"> 
+                      <div class="section__img"> <img src="img/icons/isotipo-analistica.png"></div>
+                      <div class="section__text">Data mining</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide dscroll">
+                    <div class="section__date"> 
+                      <div class="section__img"> <img src="img/icons/isotipo-analistica.png"></div>
+                      <div class="section__text">Identificación de variables</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide dscroll">
+                    <div class="section__date"> 
+                      <div class="section__img"> <img src="img/icons/isotipo-analistica.png"></div>
+                      <div class="section__text">Rendimiento</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide dscroll">
+                    <div class="section__date"> 
+                      <div class="section__img"> <img src="img/icons/isotipo-analistica.png"></div>
+                      <div class="section__text">Análisis de competencia</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide dscroll">
+                    <div class="section__date"> 
+                      <div class="section__img"> <img src="img/icons/isotipo-analistica.png"></div>
+                      <div class="section__text">Optimización</div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-xs-6 col-md-3">
-                <article class="article--client">
-                  <div class="article__img"> <img src="img/clients/2.png"></div>
-                </article>
-              </div>
-              <div class="col-xs-6 col-md-3">
-                <article class="article--client">
-                  <div class="article__img"> <img src="img/clients/3.png"></div>
-                </article>
-              </div>
-              <div class="col-xs-6 col-md-3">
-                <article class="article--client">
-                  <div class="article__img"> <img src="img/clients/4.png"></div>
-                </article>
+            </div>
+            <div class="section__message"> 
+              <p>El potencial de los datos</p>
+            </div>
+            <div class="section__swiper">
+              <div class="swiper-container swiper-left">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide dscroll">
+                    <div class="section__date"> 
+                      <div class="section__img"> <img src="img/icons/isotipo-analistica.png"></div>
+                      <div class="section__text">Predicción</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide dscroll">
+                    <div class="section__date"> 
+                      <div class="section__img"> <img src="img/icons/isotipo-analistica.png"></div>
+                      <div class="section__text">Visualización</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide dscroll">
+                    <div class="section__date"> 
+                      <div class="section__img"> <img src="img/icons/isotipo-analistica.png"></div>
+                      <div class="section__text">Aumento de ganancias</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide dscroll">
+                    <div class="section__date"> 
+                      <div class="section__img"> <img src="img/icons/isotipo-analistica.png"></div>
+                      <div class="section__text">Segmentación de clientes</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide dscroll">
+                    <div class="section__date"> 
+                      <div class="section__img"> <img src="img/icons/isotipo-analistica.png"></div>
+                      <div class="section__text">Proyecciones</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="section__footer dscroll"> 
-            <h3 class="h1 section__title">ADN de Analistica </h3>
-            <p class="section__description">Los valores que vuelven confiable la información de analistica. <br> El poder de los datos</p>
+        </div>
+      </section>
+      <section class="section--mediahome">
+        <div class="section__wrap">
+          <div class="section__box">
+            <div class="section__header"> 
+              <h3 class="section__title">Estrategia de datos interno/externo</h3>
+            </div>
+            <div class="section__body">
+              <div class="cols cols-gutter-0">
+                <div class="section__flex">
+                  <div class="col-md-6">
+                    <div class="section__img"><img src="img/uploads/image-media-1.png"></div>
+                  </div>
+                  <div class="col-md-6"> 
+                    <div class="section__content dscroll"> 
+                      <h2 class="section__title">Enfoque interno o defensivo</h2>
+                      <p class="section__description">El uso del Big Data en el modelo defensivo permite a las instituciones recopilar, almacenar y analizar grandes cantidades de datos internos para entender el comportamiento de los diferentes actores participantes en la organización, incluyendo información sobre clientes, empleados, proveedores y competidores. </p><a data-goto=".section--contact" class="btn btn--border">Contactar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section__body section__body--nonebottom">
+              <div class="cols cols-gutter-0">
+                <div class="section__flex">
+                  <div class="col-md-6 col-md-push-6">
+                    <div class="section__img"><img src="img/uploads/image-media-2.png"></div>
+                  </div>
+                  <div class="col-md-6 col-md-pull-6"> 
+                    <div class="section__content dscroll"> 
+                      <h2 class="section__title">Enfoque externo u ofensivo</h2>
+                      <p class="section__description">El uso de Big Data en el modelo ofensivo permite a las instituciones recopilar y analizar datos externos para conocer mejor el escenario en el que operan, lo que les permite tomar decisiones informadas sobre cómo aplicar sus estrategias y planes de acción, identificar oportunidades de crecimiento, desarrollar nuevos productos o servicios, mejorar la segmentación de mercado y adaptarse a los cambios en la regulación. También pueden utilizar esta información para identificar a sus competidores y desarrollar estrategias para competir con ellos.</p><a data-goto=".section--contact" class="btn btn--border">Contactar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--video section--video--notop">
+        <div class="section__video">
+          <video id="myvideo" playsinline autoplay muted loop>
+            <source src="videos/video_02.mp4" type="video/mp4" autoplay>
+          </video>
+        </div>
+        <div class="section__wrap section__wrap--main">
+          <div class="section__body"> 
+            <div class="section__content"> 
+              <h3 class="section__title">Utiliza hoy el potencial de la información.</h3>
+              <p class="section__subtitle">Analistica Data.</p>
+            </div>
           </div>
         </div>
       </section>
       <section class="section--contact">
         <div class="section__wrap"> 
-          <div class="section__header dscroll">
-            <div class="section__quote"> 
-              <blockquote>ANALISTICA genera su propias bases de datos las cuales son de uso exclusivo para cada cliente, manjeo de datos con énfasis en la transparencia, responsabilidad y trabajo ético de la información entregada. <br> <strong>"Equipo analistica"</strong></blockquote>
-            </div>
-          </div>
           <div class="section__body"> 
-            <div class="cols"> 
+            <div class="cols">
               <div class="col-md-6">
                 <div class="section__form"> 
-                  <h4 class="section__title">Pongamonos en contacto</h4>
-                  <form class="form dscroll">
+                  <h4 class="section__title">Pongámonos en contacto :)</h4>
+                  <form action="send.php" method="post" class="form dscroll">
                     <div class="form__element"> 
                       <div class="form__input"> 
-                        <input type="text" name="name" placeholder="Nombre y Apellido">
+                        <input type="text" name="name" placeholder="Nombre" required>
                       </div>
                     </div>
                     <div class="form__element"> 
                       <div class="form__input"> 
-                        <input type="email" name="email" placeholder="Email">
+                        <input type="text" name="email" placeholder="Email" required>
                       </div>
                     </div>
                     <div class="form__element"> 
@@ -215,12 +313,24 @@
                     </div>
                     <div class="form__element"> 
                       <div class="form__input"> 
-                        <input type="number" name="number" placeholder="Teléfono">
+                        <input type="number" name="phone" placeholder="Teléfono" required>
                       </div>
                     </div>
                     <div class="form__element"> 
                       <div class="form__input"> 
-                        <textarea name="message" placeholder="Mensaje"></textarea>
+                        <select name="service" required>
+                          <option selected disabled>Selecciona un servicio</option>
+                          <option value="agencia-digital">Agencia Digital</option>
+                          <option value="Campaña-ads">Campanas ADS</option>
+                          <option value="pagina-web">Página Web</option>
+                          <option value="redes-sociales">Redes Sociales</option>
+                          <option value="data-marketing">Data Marketing</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form__element"> 
+                      <div class="form__input"> 
+                        <textarea name="message" placeholder="Mensaje" required></textarea>
                       </div>
                     </div>
                     <div class="form__button"> 
@@ -233,7 +343,7 @@
                 <div class="section__newsletter"> 
                   <h4 class="section__title">Newsletter </h4>
                   <p class="section__description">Quiere recibir información y nuevos beneficios sobre nuestros servicios y productos.</p>
-                  <form class="form dscroll">
+                  <form action="newsletter.php" method="post" class="form dscroll">
                     <div class="form__element"> 
                       <div class="form__input"> 
                         <input type="email" name="email" placeholder="Email">
@@ -254,17 +364,20 @@
       <div class="footer__wrap">
         <div class="footer__flex"> 
           <div class="footer__content">
-            <div class="footer__logo"> <a href="#">Analistica
-                <!--img(src="img/icons/logo-analistica.svg") --></a></div>
-            <p class="footer__description">2021 ANALISTICA. Reservados todos los derechos. Salvo que se permita expresamente lo contrario, ninguna imagen u otro contenido que se muestre en este sitio web puede copiarse, reimprimirse, volver a publicarse, modificarse o distribuirse de ninguna forma sin el permiso expreso por escrito del propietario de los derechos de autor.</p>
+            <div class="footer__logo"> <a href="#"><img src="img/icons/logotipo-analistica.png"></a></div>
+            <div class="footer__socials"> 
+              <div class="footer__social"> <a href="#"><span class="fa fa-linkedin"></span></a></div>
+              <div class="footer__social"> <a href="#"><span class="fa fa-instagram"></span></a></div>
+            </div>
+            <p class="footer__description">2023 ANALISTICA. Reservados todos los derechos. Salvo que se permita expresamente lo contrario, ninguna imagen u otro contenido que se muestre en este sitio web puede copiarse, reimprimirse, volver a publicarse, modificarse o distribuirse de ninguna forma sin el permiso expreso por escrito del propietario de los derechos de autor.</p>
           </div>
           <div class="footer__links"> 
             <ul> 
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Bases estándar</a></li>
-              <li><a href="#">Bases personalizadas</a></li>
-              <li><a href="#">Servicios de datos y marketing</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="base-standar.html">Bases estándar</a></li>
+              <li><a href="bases-personalizadas.html">Bases personalizadas</a></li>
+              <li><a href="investigacion-proyectos.html">Proyectos de data</a></li>
+              <li><a href="contact.html">Contacto</a></li>
             </ul>
           </div>
         </div>

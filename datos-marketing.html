@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=86066" rel="stylesheet" type="text/css">
+    <link href="css/main.css?v=14764" rel="stylesheet" type="text/css">
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css" rel="stylesheet">
-    <script src="js/main.js?v=86066" type="text/javascript"></script>
+    <script src="js/main.js?v=14764" type="text/javascript"></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
@@ -21,19 +21,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;0,700;1,300&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;0,700;1,300&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <div class="header__primary">
         <div class="header__wrap">
           <div class="header__inner">
-            <div class="header__logo"><a href="index.html">Analistica
-                <!--img(src="img/icons/logo-analistica.svg")--></a></div>
+            <div class="header__logo"><a href="index.html"><img src="img/icons/logotipo-analistica.png"></a></div>
             <div class="header__nav">
               <div class="header__nav__bg"></div>
               <div class="header__nav__nav">
                 <div class="header__nav__bar">
-                  <div class="header__logo"><a href="index.html"><img src="img/icons/logo-analistica.svg"></a></div>
                   <div class="header__nav__close">
                     <div></div>
                     <div></div>
@@ -49,8 +48,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="base-standar.html">Bases estándar</a></li>
                     <li><a href="bases-personalizadas.html">Bases personalizadas</a></li>
-                    <li><a href="investigacion-proyectos.html">Investigación y proyectos</a></li>
-                    <li class="li-max"><a href="datos-marketing.html">Servicios de datos y marketing</a></li>
+                    <li><a href="investigacion-proyectos.html">Proyectos de data</a></li>
                     <li><a href="contact.html">Contacto</a></li>
                   </ul>
                 </nav>
@@ -73,7 +71,7 @@
         <div class="section__wrap section__wrap--main">
           <div class="section__body dscroll"> <span class="section__subtitle">OTROS SERVICIOS</span>
             <h2 class="h1 section__title">BBDD Y MARKETING</h2>
-            <p class="section__description">Mejora tu información y estrategias de mercado</p>
+            <p class="section__description">Mejora tu información y estrategias de mercado.</p>
           </div>
         </div>
       </section>
@@ -120,23 +118,23 @@
         <div class="section__wrap"> 
           <div class="section__header dscroll">
             <div class="section__quote">
-              <blockquote><strong>BASES DE EXITO</strong> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit id tenetur illo? Temporibus eos et ad nobis quasi iusto nihil molestiae mollitia animi at impedit consectetur, ducimus asperiores ipsam vel.</blockquote>
+              <blockquote>ANALISTICA genera su propias bases de datos las cuales son de uso exclusivo para cada cliente, manejo de datos con énfasis en la transparencia, responsabilidad y trabajo ético de la información entregada. <br> <strong>"Equipo ANALISTICA"</strong></blockquote>
             </div>
           </div>
           <div class="section__body"> 
             <div class="cols"> 
               <div class="col-md-6">
                 <div class="section__form"> 
-                  <h4 class="section__title">Pongamonos en contacto</h4>
-                  <form class="form dscroll">
+                  <h4 class="section__title">Pongámonos en contacto</h4>
+                  <form action="send.php" method="post" class="form dscroll">
                     <div class="form__element"> 
                       <div class="form__input"> 
-                        <input type="text" name="name" placeholder="Nombre y Apellido">
+                        <input type="text" name="name" placeholder="Nombre" required>
                       </div>
                     </div>
                     <div class="form__element"> 
                       <div class="form__input"> 
-                        <input type="email" name="email" placeholder="Email">
+                        <input type="text" name="email" placeholder="Email" required>
                       </div>
                     </div>
                     <div class="form__element"> 
@@ -146,12 +144,12 @@
                     </div>
                     <div class="form__element"> 
                       <div class="form__input"> 
-                        <input type="number" name="number" placeholder="Teléfono">
+                        <input type="number" name="phone" placeholder="Teléfono" required>
                       </div>
                     </div>
                     <div class="form__element"> 
                       <div class="form__input"> 
-                        <textarea name="message" placeholder="Mensaje"></textarea>
+                        <textarea name="message" placeholder="Mensaje" required></textarea>
                       </div>
                     </div>
                     <div class="form__button"> 
@@ -164,7 +162,7 @@
                 <div class="section__newsletter"> 
                   <h4 class="section__title">Newsletter </h4>
                   <p class="section__description">Quiere recibir información y nuevos beneficios sobre nuestros servicios y productos.</p>
-                  <form class="form dscroll">
+                  <form action="newsletter.php" method="post" class="form dscroll">
                     <div class="form__element"> 
                       <div class="form__input"> 
                         <input type="email" name="email" placeholder="Email">
@@ -185,17 +183,20 @@
       <div class="footer__wrap">
         <div class="footer__flex"> 
           <div class="footer__content">
-            <div class="footer__logo"> <a href="#">Analistica
-                <!--img(src="img/icons/logo-analistica.svg") --></a></div>
-            <p class="footer__description">2021 ANALISTICA. Reservados todos los derechos. Salvo que se permita expresamente lo contrario, ninguna imagen u otro contenido que se muestre en este sitio web puede copiarse, reimprimirse, volver a publicarse, modificarse o distribuirse de ninguna forma sin el permiso expreso por escrito del propietario de los derechos de autor.</p>
+            <div class="footer__logo"> <a href="#"><img src="img/icons/logotipo-analistica.png"></a></div>
+            <div class="footer__socials"> 
+              <div class="footer__social"> <a href="#"><span class="fa fa-linkedin"></span></a></div>
+              <div class="footer__social"> <a href="#"><span class="fa fa-instagram"></span></a></div>
+            </div>
+            <p class="footer__description">2023 ANALISTICA. Reservados todos los derechos. Salvo que se permita expresamente lo contrario, ninguna imagen u otro contenido que se muestre en este sitio web puede copiarse, reimprimirse, volver a publicarse, modificarse o distribuirse de ninguna forma sin el permiso expreso por escrito del propietario de los derechos de autor.</p>
           </div>
           <div class="footer__links"> 
             <ul> 
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Bases estándar</a></li>
-              <li><a href="#">Bases personalizadas</a></li>
-              <li><a href="#">Servicios de datos y marketing</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="base-standar.html">Bases estándar</a></li>
+              <li><a href="bases-personalizadas.html">Bases personalizadas</a></li>
+              <li><a href="investigacion-proyectos.html">Proyectos de data</a></li>
+              <li><a href="contact.html">Contacto</a></li>
             </ul>
           </div>
         </div>
